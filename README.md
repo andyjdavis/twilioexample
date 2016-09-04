@@ -1,19 +1,15 @@
-# twilioexample [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> 
+# twilioexample
 
-## Installation
+This is a simple command line app created from Yeoman scaffolding.
 
-```sh
-$ npm install --save twilioexample
-```
+It reads a message from a text file, a list of recipients from a second file (one phone number per line) then SMSs the recipients via Twilio.
 
 ## Usage
 
-```js
-var twilioexample = require('twilioexample');
+Supply all the required info on the command line
 
-twilioexample('Rainbow');
-```
+node lib/index.js twilioSID twilioAuthToken fromPhoneNumber messageFilePath recipientFilePath
+
 ## License
 
 Apache-2.0 © [Andrew Davis](thetravelingprogrammer.com)
