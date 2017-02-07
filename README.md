@@ -2,13 +2,13 @@
 
 This is a simple command line app created from Yeoman scaffolding.
 
-It reads a message from a text file, a list of recipients from a second file (one phone number per line) then SMSs the recipients via Twilio.
+It reads a message from a text file, a list of recipients from a second text file (one phone number per line) then SMSs the recipients via Twilio.
 
 ## Usage
 
 Supply all the required info on the command line
 
-node lib/index.js twilioSID twilioAuthToken fromPhoneNumber messageFilePath recipientFilePath
+node lib/index.js twilioSID twilioAuthToken fromPhoneNumber messageFilePath recipientFilePath > output.log
 
 ## License
 
