@@ -4,6 +4,8 @@ This is a simple command line app created from Yeoman scaffolding.
 
 It reads a message from a text file, a list of recipients from a second text file (one phone number per line) then SMSs the recipients via Twilio.
 
+Make sure your message won't get split due to the characters it uses. http://chadselph.github.io/smssplit/
+
 ## Usage
 
 Supply all the required info on the command line
